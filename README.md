@@ -10,7 +10,7 @@
 
 Wersja live projektu została umieszczona na platformie Netlify. Można ją zobaczyć tutaj:
 
-**[Wersja live](https://nabthat-zadanie-rekrutacyjne-angular-m-mikos.netlify.app/)**
+**[Wersja live](https://nabthat-rekrutacja-angular-m-mikos.netlify.app/)**
 
 ## Uruchomienie
 
