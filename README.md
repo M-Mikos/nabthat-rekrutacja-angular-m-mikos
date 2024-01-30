@@ -19,7 +19,7 @@ Projekt wykorzystuje [Node](https://nodejs.org/en/) i [NPM](https://www.npmjs.co
 Skopiuj repozytorium:
 
 ```
-git clone https://github.com/M-Mikos/nabthat-zadanie-rekrutacyjne-angular-m-mikos.git
+git clone https://github.com/M-Mikos/nabthat-rekrutacja-angular-m-mikos.git
 ```
 
 Zainstaluj zależności:
