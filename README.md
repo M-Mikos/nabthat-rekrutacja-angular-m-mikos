@@ -1,27 +1,45 @@
-# NabthatRecruitmentTaskAngular
+# Zadanie rekrutacyjne Nabthat - rozwiązanie Angular <!-- omit in toc -->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+## Spis treści <!-- omit in toc -->
 
-## Development server
+- [Wersja live](#wersja-live)
+- [Uruchomienie](#uruchomienie)
+- [Pozostałe informacje](#pozostałe-informacje)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Wersja live
 
-## Code scaffolding
+Wersja live projektu została umieszczona na platformie Netlify. Można ją zobaczyć tutaj:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**[Wersja live](https://nabthat-zadanie-rekrutacyjne-angular-m-mikos.netlify.app/)**
 
-## Build
+## Uruchomienie
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Projekt wykorzystuje [Node](https://nodejs.org/en/) i [NPM](https://www.npmjs.com/). Aby uruchomić środowisko deweloperskie, wykonaj następujące czynności:
 
-## Running unit tests
+Skopiuj repozytorium:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+git clone https://github.com/M-Mikos/nabthat-zadanie-rekrutacyjne-angular-m-mikos.git
+```
 
-## Running end-to-end tests
+Zainstaluj zależności:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm i
+```
 
-## Further help
+Uruchom środowisko deweloperskie:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+ng serve
+```
+
+Aplikacja jest gotowa na porcie 4200.
+
+```
+localhost:4200/
+```
+
+## Pozostałe informacje
+
+Szczegółowy opis aplikacji jest dostępny w dokumencie `README.md` w katalogu głównym repozytorium z zadaniem rekrutacyjnym.

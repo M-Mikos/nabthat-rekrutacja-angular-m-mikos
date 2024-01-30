@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TextDataService } from './services/textData.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'nabthat-recruitment-task-angular';
+export class AppComponent implements OnInit {
+  constructor(private textDataService: TextDataService) {}
+
+  ngOnInit() {
+    this.textDataService.loadData();
+  }
 }
